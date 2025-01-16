@@ -1,5 +1,8 @@
 #include "BitBoard.h"
 #include <bit>
+#include <iostream>
+#include <cstdint>
+#include <cstddef>
 
 BitBoard::BitBoard()
     : m_board() {}

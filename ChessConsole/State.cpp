@@ -1,4 +1,13 @@
 #include "State.h"
+#include "ChessConstants.hpp"
+#include <iostream>
+#include <cstdint>
+#include <cstddef>
+#include <array>
+#include <string>
+#include <string_view>
+#include <algorithm>
+#include <cctype>
 
 State::State()
     : m_positions(), m_occupancy(), m_whiteToMove(true), m_enpassantSquare(no_sqr), m_castleRights(0b1111) {}

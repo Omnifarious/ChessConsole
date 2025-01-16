@@ -1,6 +1,7 @@
 #include "PreGen.h"
+#include "PregeneratedMagics.hpp"
 #include <bit>
-
+#include <bitset>
 
 PreGen::PreGen()
     : m_pawnAttackMasks(), m_knightAttackMasks(), m_kingAttackMasks(), m_bishopAttackMask(), m_rookAttackMask(),

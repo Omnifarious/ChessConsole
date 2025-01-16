@@ -1,10 +1,8 @@
 #pragma once
 
 #include "Move.h"
-#include <cstdint>
 #include <cstddef>
 #include <vector>
-#include <algorithm>
 
 class MoveList
 {

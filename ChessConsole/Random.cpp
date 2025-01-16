@@ -1,4 +1,6 @@
 #include "Random.h"
+#include <ctime>
+#include <cstdint>
 
 Random::Random()
     : m_rng(std::time(NULL))

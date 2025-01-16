@@ -1,5 +1,8 @@
 #include "Move.h"
-
+#include "ChessConstants.hpp"
+#include <iostream>
+#include <cstdint>
+#include <cstddef>
 
 //pawn promoted
 Move::Move(const std::size_t source, const std::size_t target, const Piece piece, const Piece captured_piece, const bool capture)

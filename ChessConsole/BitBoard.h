@@ -2,8 +2,6 @@
 
 #include <string>
 #include "ChessConstants.hpp"
-#include <iostream>
-#include <array>
 #include <cstddef>
 
 struct BitBoard

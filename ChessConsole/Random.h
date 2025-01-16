@@ -1,9 +1,7 @@
 #pragma once
 
-#include <ctime>
 #include <cstdlib>
 #include <cstdint>
-#include "ChessConstants.hpp"
 #include "BitBoard.h"
 #include <random>
 

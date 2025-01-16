@@ -2,7 +2,6 @@
 #include <cstdint>
 #include <cstddef>
 #include "ChessConstants.hpp"
-#include <iostream>
 
 constexpr std::size_t target_shift{ 6 };
 constexpr std::size_t promoted_shift{ 12 };

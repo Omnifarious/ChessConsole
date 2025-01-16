@@ -1,5 +1,5 @@
 #include "MoveList.h"
-
+#include <algorithm>
 
 MoveList::MoveList()
     : m_moves(), m_count()
